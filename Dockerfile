@@ -1,3 +1,5 @@
+# This Dockerfile creates an Ubuntu 16.04 image with the tools needed to build and run xv6,
+# clones the xv6 repository, and starts a Bash shell.
 FROM ubuntu:16.04
 
 # add from local directory
